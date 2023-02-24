@@ -27,7 +27,7 @@
   <body>
       <!-- Add your site content here -->
     <header>
-      <div class="logo-statement">
+      <div id='logo-btn' class="logo-statement">
         <div class="logo-bkgd">
           <img class='logo' src="img/Logo.svg"/>
         </div>
@@ -38,29 +38,29 @@
       </div>
       
       <nav>
-        <button type="button">About</button>
-        <button type="button">Contact</button>
+        <a href="#card7" class="about-btn" >About</a>
+        <a href="#card7" class="contact-btn" >Contact</a>
       </nav>
     </header>
 
 
     <!--   PICTURE CARDS W/ SCREEN NAVIGATION   -->
-    <main class="main">
-        <div class='card'>
+    <main class='main'>
+        <div id='card1' class='card'>
           <div class='description'>
             <h2>Haircut</h2>
             <p>New York City, NY</p>
             <p>March 31, 2018</p>
           </div>
           
-          <div class='photo-box'>          
+          <div class='photo-box '>          
             <a href="#" class="previous round arrows invisible">&#8249;</a>
             <img class='photo' src="img/haircut.png" alt=""/>
-            <a href="#" class="next round arrows">&#8250;</a>
+            <a href="#card2" class="next round arrows">&#8250;</a>
           </div>
         </div>
 
-      <div class='card'>
+      <div  id='card2' class='card'>
         <div class='description'>
           <h2>Flag</h2>
           <p>LGBTQIA March <br>Washington, DC</p>
@@ -68,62 +68,61 @@
         </div>
 
         <div class='photo-box'>
-          <a href="#" class="previous round arrows">&#8249;</a>
+          <a href="#card1" class="previous round arrows">&#8249;</a>
           <img class='photo' src="img/flag.png" alt=""/>
-          <a href="#" class="next round arrows">&#8250;</a>
+          <a href="#card3" class="next round arrows">&#8250;</a>
         </div>
-
       </div>
 
-      <div class='card'>
+      <div id='card3' class='card'>
         <div class='description'>
           <h2>Moment</h2>
           <p>FemRock Fest<br>Austin, TX</p>
           <p>July 17, 2018</p>
         </div>
         <div class='photo-box'>
-          <a href="#" class="previous round arrows">&#8249;</a>
+          <a href="#card2" class="previous round arrows">&#8249;</a>
           <img class='photo' src="img/moment.png" alt=""/>
-          <a href="#" class="next round arrows">&#8250;</a>
+          <a href="#card4" class="next round arrows">&#8250;</a>
         </div>
       </div>
 
-      <div class='card'>
+      <div id='card4' class='card'>
         <div class='description'>
           <h2>Smile</h2>
           <p>San Francisco, CA</p>
           <p>August 4, 2017</p>
         </div>
         <div class='photo-box'>
-          <a href="#" class="previous round arrows">&#8249;</a>
+          <a href="#card3" class="previous round arrows">&#8249;</a>
           <img class='photo' src="img/smile.png" alt=""/>
-          <a href="#" class="next round arrows">&#8250;</a>
+          <a href="#card5" class="next round arrows">&#8250;</a>
         </div>
       </div>
 
-      <div class='card'>
+      <div id='card5' class='card'>
         <div class='description'>
           <h2>Flex</h2>
           <p>Madison, WI</p>
           <p>July 24, 2015</p>
         </div>
         <div class='photo-box'>
-          <a href="#" class="previous round arrows">&#8249;</a>
+          <a href="#card4" class="previous round arrows">&#8249;</a>
           <img class='photo' src="img/flex.png" alt=""/>
-          <a href="#" class="next round arrows">&#8250;</a>
+          <a href="#card6" class="next round arrows">&#8250;</a>
         </div>
       </div>
 
-      <div class='card'>
+      <div id='card6' class='card'>
         <div class='description'>
           <h2>Black Girl Magic</h2>
           <p>Houston, TX</p>
           <p>January 17, 2016</p>
         </div>
         <div class='photo-box'>
-          <a href="#" class="previous round arrows">&#8249;</a>
+          <a href="#card5" class="previous round arrows">&#8249;</a>
           <img class='photo' src="img/black-girl-magic.png" alt=""/>
-          <a href="#" class="next round arrows">&#8250;</a>
+          <a href="#card7" class="next round arrows">&#8250;</a>
         </div>
       </div>
 
@@ -132,7 +131,7 @@
     
     <!--    FOOTER SECTION     -->
       <footer>
-        <div class='card'>
+        <div id='card7' class='card'>
           <div class='description'>
             <div class="statement">
               <h3>Artist's Statement:</h3>
@@ -143,10 +142,10 @@
             </div>
             
             <div class='socials'>
-              <img class="social-icon" src="img/twitter_icon.png"/>
-              <img class="social-icon" src="img/instagram_icon.png"/>
-              <img class="social-icon" src="img/flickr_icon.png"/>
-              <img class="social-icon" src="img/facebook_icon.png"/>
+              <a class="social-icon" href="https:twitter.com" target="_blank"><img src="img/twitter_icon.png"/></a> 
+              <a class="social-icon" href="https:instagram.com" target="_blank"><img  src="img/instagram_icon.png"/></a>
+              <a class="social-icon" href="https:flickr.com" target="_blank"><img  src="img/flickr_icon.png"/></a>
+              <a class="social-icon" href="https:facebook.com" target="_blank"><img  src="img/facebook_icon.png"/></a>
             </div>
           </div>
           <div class='photo-box-cover'>
